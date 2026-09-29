@@ -1,0 +1,69 @@
+hero:
+  eyebrow: "AI + Human Revenue Assistant"
+  title: "No lead goes cold. No customer is forgotten."
+  subtitle: "Jane turns more opportunities into revenue and keeps your customers coming back."
+  body: "Jane is an intelligent AI assistant that helps you turn more leads into customers and more customers into repeat business. She makes sure every lead gets a fast reply, every quote gets followed up, and every past customer hears from you again. She works around the clock and keeps her <strong>own built-in CRM</strong> up to date automatically. When a situation needs an actual person — a phone call, or a chase that's gone quiet — her <strong>team of real humans</strong> steps in."
+  primary_cta:
+    label: "Get Started"
+    url: "/get-started/"
+  secondary_cta:
+    label: "See How It Works"
+    url: "/how-it-works/"
+  illustration:
+    file: "hero-fast-response.svg"
+    alt: "Illustration of a small business owner responding quickly to a customer message on a laptop"
+
+problem:
+  heading: "The Problem"
+  body:
+    - "You're already stretched thin. A new inquiry lands while you're busy, and by the time you reply, they've moved on. A quote sits without a follow-up. A past customer who trusted you once quietly drifts away. And through all of it, the CRM never gets updated — because updating it was never really anyone's job."
+  illustration:
+    file: "problem-overwhelmed-inbox.svg"
+    alt: "Illustration of a person overwhelmed by a cluttered inbox and missed notifications"
+
+meet_jane:
+  heading: "Meet Jane"
+  body: "Jane isn't another app you have to learn — she's on your team. She has her own email address, yours@myjane.ai, that you CC the way you'd CC a human secretary. You can reach Jane from your existing email, and your customers can reach her too — no app to download, no software to install, and no new system for them to learn. She even syncs up with your existing mailbox. She reads every thread, tells the routine from the urgent, and only pulls you in when a real decision is needed."
+  points:
+    - "Her own inbox and identity — not a widget on your site"
+    - "Reachable by email — no app or installation required"
+    - "Tells FYI from FYA — so only real decisions reach you"
+    - "Managed in plain chat — anytime, without a settings panel"
+  illustration:
+    file: "meet-jane-ai-teamwork.svg"
+    alt: "Illustration of a person working alongside a helpful robot assistant"
+
+what_jane_does:
+  heading: "What Jane Does"
+  items:
+    - number: "01"
+      title: "Capture"
+      description: "Every lead gets a fast reply."
+    - number: "02"
+      title: "Convert"
+      description: "Every quote gets followed up until it's won or lost."
+    - number: "03"
+      title: "Retain"
+      description: "Past customers hear from you again."
+    - number: "04"
+      title: "Organize"
+      description: "Inbuilt CRM stays current automatically."
+
+why_not_ai:
+  heading: "Why It's Not Just AI"
+  body:
+    - "AI can handle the volume — replying quickly, following up, keeping track of conversations, and making sure nothing gets forgotten. But sometimes a situation moves only when a real person gets involved: reconnecting with a customer who's going cold, chasing an elusive lead, resolving a sensitive issue, or calming down a disgruntled customer."
+    - "That's why Jane combines AI with a dedicated human team. Jane handles the routine work automatically, and her team steps in when a human touch can make the difference. They can make the call, have the difficult conversation, or keep pursuing something that needs persistence. You see everything they do in one running activity feed."
+  illustration:
+    file: "why-not-ai-team-collaboration.svg"
+    alt: "Illustration of a human and an AI assistant working together at a shared desk"
+
+closing:
+  heading: "Ready to put Jane to work?"
+  columns:
+    - title: "Plans from $99/month"
+      text: "See which Jane is right for you"
+      url: "/pricing/"
+    - title: "Get started"
+      text: "Sign up and get your first month free"
+      url: "/get-started/"

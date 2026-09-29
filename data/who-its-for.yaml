@@ -1,0 +1,19 @@
+intro:
+  heading: "Who It's For"
+  body: "MyJane is built for small, lean teams — whether you already have a salesperson or secretary, or can't yet justify one. Either way, real revenue slips through the cracks the moment they're on a call, out of office, or just outnumbered by leads."
+
+startups:
+  heading: "Startups — our primary focus"
+  body:
+    - "Early-stage teams move fast and stay thin by design. Every founder is also doing sales, support, and everything else at once, which means inbound interest — a demo request, an investor intro, a customer question — is exactly what's most likely to slip. Jane gives a two-person startup the responsiveness of a company with a real sales operation, from day one."
+  illustration:
+    file: "startup-team-hustle.svg"
+    alt: "Illustration of a small startup team juggling multiple roles at once"
+
+professionals:
+  heading: "Independent professionals and small practices"
+  body:
+    - "The same problem shows up anywhere a business runs on relationships and referrals rather than a marketing team: CPA and accounting firms, wealth and financial advisors, architects and design studios, real estate consultants, lawyers, and independent consultants of every kind. These are examples, not the full list — if your business lives or dies by how fast you respond and how well you follow up, Jane is built for you."
+  illustration:
+    file: "independent-professional-consult.svg"
+    alt: "Illustration of an independent professional meeting with a client"

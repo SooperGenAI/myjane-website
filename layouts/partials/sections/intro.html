@@ -1,0 +1,20 @@
+{{ if .illustration }}
+  <section class="mx-auto max-w-5xl px-6 py-section-y">
+    <div class="grid items-center gap-12 md:grid-cols-2">
+      <div>
+        <h1 class="h-display text-4xl">{{ .heading }}</h1>
+        {{ with .subtitle }}<p class="mt-4 text-lg text-navy-700/80">{{ . }}</p>{{ end }}
+        <p class="mt-4 text-navy-700/70">{{ .body }}</p>
+      </div>
+      {{ partial "illustration.html" .illustration }}
+    </div>
+  </section>
+{{ else }}
+  <section class="mx-auto max-w-5xl px-6 py-section-y">
+    <div class="mx-auto max-w-3xl">
+      <h1 class="h-display text-4xl">{{ .heading }}</h1>
+      {{ with .subtitle }}<p class="mt-4 text-lg text-navy-700/80">{{ . }}</p>{{ end }}
+      <p class="mt-4 text-navy-700/70">{{ .body }}</p>
+    </div>
+  </section>
+{{ end }}

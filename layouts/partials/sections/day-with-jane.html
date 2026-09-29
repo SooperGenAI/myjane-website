@@ -1,0 +1,39 @@
+{{ $dark := .dark }}
+{{ $total := len .steps }}
+{{ $centerLastRow := eq (mod $total 3) 2 }}
+<section class="py-section-y {{ if $dark }}bg-navy-700{{ end }}">
+  <div class="mx-auto max-w-5xl px-6">
+    {{ if .pageTitle }}
+      <h1 class="h-display text-center text-3xl {{ if $dark }}text-white{{ end }}">{{ .heading }}</h1>
+    {{ else }}
+      <h2 class="h-display text-3xl {{ if $dark }}text-white{{ end }}">{{ .heading }}</h2>
+    {{ end }}
+
+    <div class="mt-12">
+      {{ partial "illustration.html" .illustration }}
+    </div>
+
+    <div class="mt-16 grid gap-6 sm:grid-cols-2 {{ if $centerLastRow }}md:grid-cols-6{{ else }}md:grid-cols-3{{ end }}">
+      {{ range $i, $step := .steps }}
+        {{ $span := "" }}
+        {{ if $centerLastRow }}
+          {{ $span = "md:col-span-2" }}
+          {{ if eq $i (sub $total 2) }}
+            {{ $span = "md:col-span-2 md:col-start-2" }}
+          {{ else if eq $i (sub $total 1) }}
+            {{ $span = "md:col-span-2 md:col-start-4" }}
+          {{ end }}
+        {{ end }}
+        <div class="card {{ $span }}">
+          {{ if $.timeline }}
+            <span class="inline-flex items-center justify-center whitespace-nowrap rounded-full bg-teal-500 px-6 py-1.5 font-sans text-xs font-semibold text-white">{{ $step.number }}</span>
+          {{ else }}
+            <span class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-teal-500 font-display font-semibold text-white">{{ $step.number }}</span>
+          {{ end }}
+          <h3 class="h-display mt-4 text-lg">{{ $step.title }}</h3>
+          <p class="mt-2 text-sm text-navy-700/70">{{ $step.description }}</p>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</section>

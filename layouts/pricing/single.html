@@ -1,0 +1,15 @@
+{{ define "main" }}
+  {{ $d := hugo.Data.pricing }}
+  {{ partial "sections/intro.html" $d.intro }}
+  <section class="bg-navy-700 py-section-y">
+    <div class="mx-auto max-w-5xl px-6">
+      <div class="grid gap-8 md:grid-cols-2">
+        {{ range $d.plans }}
+          {{ partial "sections/pricing-plan.html" . }}
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  {{ partial "sections/prose.html" $d.human_team }}
+  {{ partial "sections/pricing-teaser.html" (merge $d.enterprise (dict "dark" true)) }}
+{{ end }}

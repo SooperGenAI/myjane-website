@@ -1,0 +1,13 @@
+<section class="bg-navy-700 py-section-y">
+  <div class="mx-auto max-w-3xl px-6 text-center">
+    <h2 class="h-display text-3xl text-white">{{ .heading }}</h2>
+    <div class="mt-10 grid gap-8 sm:grid-cols-2">
+      {{ range .columns }}
+        <div>
+          <p class="font-display text-lg font-semibold text-white">{{ .title }}</p>
+          <a href="{{ .url }}" class="btn-outline mt-4 inline-flex border-white text-white">{{ .text }}</a>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,6 @@
+{{ define "main" }}
+  {{ $d := index hugo.Data "who-its-for" }}
+  {{ partial "sections/intro.html" $d.intro }}
+  {{ partial "sections/prose.html" (merge $d.startups (dict "dark" true)) }}
+  {{ partial "sections/prose.html" $d.professionals }}
+{{ end }}

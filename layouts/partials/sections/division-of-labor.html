@@ -1,0 +1,17 @@
+{{ $dark := .dark }}
+<section class="py-section-y {{ if $dark }}bg-navy-700{{ end }}">
+  <div class="mx-auto max-w-5xl px-6">
+    <h2 class="h-display text-3xl {{ if $dark }}text-white{{ end }}">{{ .heading }}</h2>
+    <div class="mt-8 grid gap-8 md:grid-cols-3">
+      {{ range .columns }}
+        <div class="card">
+          <h3 class="eyebrow">{{ .label }}</h3>
+          <p class="mt-3 text-navy-700/70">{{ .body }}</p>
+        </div>
+      {{ end }}
+    </div>
+    {{ with .illustration }}
+      {{ partial "illustration.html" (dict "file" .file "alt" .alt "class" "mx-auto mt-10 w-full max-w-md") }}
+    {{ end }}
+  </div>
+</section>

@@ -1,0 +1,7 @@
+{{ define "main" }}
+  {{ $d := index hugo.Data "how-it-works" }}
+  {{ partial "sections/day-with-jane.html" (merge $d.intro (dict "pageTitle" true)) }}
+  {{ partial "sections/day-with-jane.html" (merge $d.a_day_with_jane (dict "dark" true)) }}
+  {{ partial "sections/prose.html" $d.fyi_vs_fya }}
+  {{ partial "sections/division-of-labor.html" (merge $d.division_of_labor (dict "dark" true)) }}
+{{ end }}

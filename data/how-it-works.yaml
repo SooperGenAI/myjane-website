@@ -1,0 +1,65 @@
+intro:
+  heading: "How It Works"
+  steps:
+    - number: "01"
+      title: "Connect"
+      description: "Connect your mailbox to Jane."
+    - number: "02"
+      title: "Understand"
+      description: "Jane maps your world — clients, projects, deliverables, timelines, and more — automatically from your email."
+    - number: "03"
+      title: "Observe"
+      description: "Jane watches incoming emails and continuously updates her understanding of what's going on."
+    - number: "04"
+      title: "Act"
+      description: "With that context, Jane keeps things moving. She follows up, replies, and reminds both you and your customers — all within the rules you set."
+    - number: "05"
+      title: "Human Assist"
+      description: "When a situation needs a human touch, her team of humans steps in to make the call or close the loop."
+  illustration:
+    file: "how-it-works-daily-routine.svg"
+    alt: "Illustration of a calendar and checklist representing a daily workflow"
+
+a_day_with_jane:
+  heading: "A Day With Jane"
+  timeline: true
+  steps:
+    - number: "7:12 AM"
+      title: "A lead comes in overnight"
+      description: "While you're asleep, a new lead comes through your website. By the time you check your phone, Jane has already replied and started the conversation."
+    - number: "10:30 AM"
+      title: "The routine stuff handles itself"
+      description: "A reschedule request, a shipping question, a simple customer update — Jane handles it, records it, and keeps you out of the loop unless you're needed."
+    - number: "1:15 PM"
+      title: "Something needs a human touch"
+      description: "An unhappy customer, a pricing objection, or a lead that's proving hard to reach. Jane knows when a situation needs more than an automated response and flags it for her team."
+    - number: "1:20 PM"
+      title: "Jane's team picks it up"
+      description: "The right person steps in with the full context already in hand — no searching through emails, no \"let me pull up your file.\""
+    - number: "4:00 PM"
+      title: "Your CRM is already up to date"
+      description: "Every conversation, commitment and follow-up from the day has already been captured in Jane's built-in CRM. There's nothing for you to enter."
+    - number: "6:00 PM"
+      title: "Your evening summary"
+      description: "One message tells you what happened today, what Jane handled, what needs your attention, and what's coming up tomorrow."
+  illustration:
+    file: "day-with-jane-timeline.svg"
+    alt: "Illustration of a person managing their time with a clock and schedule"
+
+fyi_vs_fya:
+  heading: "FYI vs. FYA"
+  body:
+    - "Not every message deserves your attention. A newsletter reply is FYI — logged, no action needed. A new inquiry, or a hesitant \"let me think about it,\" is FYA — flagged, because it needs you. Jane makes that call by default, so what reaches you is only what matters."
+
+division_of_labor:
+  heading: "Division of Labor"
+  columns:
+    - label: "Jane"
+      body: "Jane handles: first response, scheduled follow-ups, CRM updates, and re-engaging past customers — everything that doesn't need a person."
+    - label: "Jane's Team"
+      body: "The team steps in for: calls, judgment calls, and anything Jane flags as needing a human touch — briefed with full context, ready to act."
+    - label: "You"
+      body: "You handle: the actual work, the final decisions Jane flags for you, and the tone and boundaries she works within."
+  illustration:
+    file: "division-of-labor-handshake.svg"
+    alt: "Illustration of two people dividing tasks collaboratively"

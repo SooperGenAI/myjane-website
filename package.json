@@ -1,0 +1,12 @@
+{
+  "name": "myjane-website",
+  "private": true,
+  "scripts": {
+    "dev": "hugo server",
+    "build": "hugo --gc --minify"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "@resvg/resvg-js": "^2.6.2"
+  }
+}

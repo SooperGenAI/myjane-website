@@ -1,0 +1,19 @@
+<section class="mx-auto max-w-5xl px-6 pt-16 pb-section-y">
+  {{ with .eyebrow }}
+    <p class="mb-10 text-center font-display text-3xl font-bold text-navy-700 sm:text-4xl">{{ . }}</p>
+  {{ end }}
+  <h1 class="h-display mb-10 text-center text-2xl sm:text-3xl md:whitespace-nowrap">{{ .title }}</h1>
+  <div class="grid items-center gap-12 md:grid-cols-2">
+    <div>
+      {{ with .subtitle }}<p class="text-lg font-bold text-navy-700/80">{{ . }}</p>{{ end }}
+      {{ with .body }}<p class="mt-4 text-navy-700/70">{{ . | safeHTML }}</p>{{ end }}
+      <div class="mt-8 flex flex-wrap items-center gap-6">
+        {{ with .primary_cta }}<a href="{{ .url }}" class="btn-outline">{{ .label }}</a>{{ end }}
+        {{ with .secondary_cta }}<a href="{{ .url }}" class="btn-outline">{{ .label }}</a>{{ end }}
+      </div>
+    </div>
+    {{ with .illustration }}
+      {{ partial "illustration.html" . }}
+    {{ end }}
+  </div>
+</section>

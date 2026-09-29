@@ -1,0 +1,31 @@
+{{ $dark := .dark }}
+{{ $align := "" }}
+{{ if .center }}
+  {{ $align = "text-center" }}
+{{ end }}
+{{ $cols := .columns | default 3 }}
+{{ $total := len .items }}
+{{ $centerLastRow := and (eq $cols 3) (eq (mod $total 3) 2) }}
+<section class="py-section-y {{ if $dark }}bg-navy-700{{ end }}">
+  <div class="mx-auto max-w-5xl px-6">
+    <h2 class="h-display text-3xl {{ $align }} {{ if $dark }}text-white{{ end }}">{{ .heading }}</h2>
+    <div class="mt-10 grid gap-6 sm:grid-cols-2 {{ if eq $cols 4 }}md:grid-cols-4{{ else if $centerLastRow }}md:grid-cols-6{{ else }}md:grid-cols-3{{ end }}">
+      {{ range $i, $item := .items }}
+        {{ $span := "" }}
+        {{ if $centerLastRow }}
+          {{ $span = "md:col-span-2" }}
+          {{ if eq $i (sub $total 2) }}
+            {{ $span = "md:col-span-2 md:col-start-2" }}
+          {{ else if eq $i (sub $total 1) }}
+            {{ $span = "md:col-span-2 md:col-start-4" }}
+          {{ end }}
+        {{ end }}
+        <div class="card {{ $span }}">
+          <span class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-teal-500 font-display font-semibold text-white">{{ $item.number }}</span>
+          <h3 class="h-display mt-4 text-lg">{{ $item.title }}</h3>
+          <p class="mt-2 text-sm text-navy-700/70">{{ $item.description }}</p>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</section>

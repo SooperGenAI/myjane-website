@@ -1,0 +1,17 @@
+heading: "Let's set up your Jane"
+subtitle: "Create your account and get Jane working for you."
+login:
+  text: "Already have an account?"
+  label: "Log in"
+  url: "/login/"
+buttons:
+  google:
+    label: "Continue with Google"
+    url: "#"
+  microsoft:
+    label: "Continue with Microsoft"
+    url: "#"
+  email:
+    label: "Continue with email"
+    url: "#"
+reassurance: "Your first month is free. No credit card required."

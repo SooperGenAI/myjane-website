@@ -1,0 +1,9 @@
+{{ define "main" }}
+  {{ $d := hugo.Data.home }}
+  {{ partial "sections/hero.html" $d.hero }}
+  {{ partial "sections/prose.html" (merge $d.problem (dict "dark" true)) }}
+  {{ partial "sections/meet-jane.html" $d.meet_jane }}
+  {{ partial "sections/numbered-cards.html" (merge $d.what_jane_does (dict "dark" true "center" true "columns" 4)) }}
+  {{ partial "sections/prose.html" $d.why_not_ai }}
+  {{ partial "sections/closing.html" $d.closing }}
+{{ end }}

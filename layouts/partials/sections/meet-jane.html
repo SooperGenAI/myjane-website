@@ -1,0 +1,19 @@
+<section class="mx-auto max-w-5xl px-6 py-section-y">
+  <h2 class="h-display text-3xl">{{ .heading }}</h2>
+  <div class="mt-6 grid gap-12 md:grid-cols-2">
+    <div>
+      <p class="text-navy-700/70">{{ .body }}</p>
+      <ul class="mt-6 space-y-3">
+        {{ range .points }}
+          <li class="flex items-start gap-3 text-navy-700/80">
+            <span class="mt-2 h-1.5 w-1.5 flex-none rounded-full bg-teal-500"></span>
+            <span>{{ . }}</span>
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+    <div>
+      {{ partial "illustration.html" .illustration }}
+    </div>
+  </div>
+</section>

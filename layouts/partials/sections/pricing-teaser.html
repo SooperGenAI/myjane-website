@@ -1,0 +1,8 @@
+{{ $dark := .dark }}
+<section class="py-section-y text-center {{ if $dark }}bg-navy-700{{ end }}">
+  <div class="mx-auto max-w-5xl px-6">
+    <h2 class="h-display text-3xl {{ if $dark }}text-white{{ end }}">{{ .heading }}</h2>
+    {{ with .body }}<p class="mt-4 {{ if $dark }}text-white/70{{ else }}text-navy-700/70{{ end }}">{{ . }}</p>{{ end }}
+    {{ with .cta }}<a href="{{ .url }}" class="btn-primary mt-8 inline-flex">{{ .label }}</a>{{ end }}
+  </div>
+</section>

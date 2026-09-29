@@ -1,0 +1,13 @@
+- name: Home
+  url: /
+- name: How It Works
+  url: /how-it-works/
+- name: Who It's For
+  url: /who-its-for/
+- name: Pricing
+  url: /pricing/
+- name: FAQ
+  url: /faq/
+- name: Get Started
+  url: /get-started/
+  cta: true

@@ -1,0 +1,10 @@
+baseURL = "https://myjane.ai/"
+languageCode = "en-us"
+title = "MyJane.ai"
+
+[params]
+  legalName = "MyJane.ai"
+  tagline = ""
+  contactEmail = ""
+  themeColor = "#2e445c"
+  ogDefaultImage = "/og-default.png"

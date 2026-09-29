@@ -1,0 +1,9 @@
+/public/
+/resources/_gen/
+/node_modules/
+.hugo_build.lock
+
+# Internal planning docs and source design assets, not site code
+/logo/
+*.docx
+/New folder/

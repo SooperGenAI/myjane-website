@@ -1,0 +1,63 @@
+intro:
+  heading: "Pricing"
+  body: "Every plan includes Jane's full AI secretary with unlimited active contacts — no lead caps, on either tier."
+
+plans:
+  - name: "Standard"
+    price: "$99/mo"
+    price_annual: "($1,000/yr)"
+    description: "The default plan for most small teams and independent practices."
+    cta:
+      label: "Get Started"
+      url: "/get-started/"
+    features:
+      - number: "01"
+        title: "Full AI secretary"
+        description: "Unlimited active contacts."
+      - number: "02"
+        title: "Automatic follow-through"
+        description: "Response, follow-up, and CRM updates, all automatic."
+      - number: "03"
+        title: "FYI vs. FYA triage"
+        description: "Only real decisions reach you."
+      - number: "04"
+        title: "Human team, as needed"
+        description: "Steps in at Jane's discretion; calls placed at her discretion."
+      - number: "05"
+        title: "Read-only activity feed"
+        description: "See exactly what the team did."
+  - name: "Executive"
+    price: "$499/mo"
+    price_annual: "($5,000/yr)"
+    description: "For owners who want to actively direct the back-office team."
+    cta:
+      label: "Get Started"
+      url: "/get-started/"
+    features:
+      - number: "01"
+        title: "Everything in Standard"
+        description: "Plus direct control over the human team."
+      - number: "02"
+        title: "On-demand human secretary"
+        description: "Direct the team yourself."
+      - number: "03"
+        title: "Interactive activity feed"
+        description: "Reply to and redirect the team in real time."
+      - number: "04"
+        title: "Up to 25 calls/month"
+        description: "Outbound calls placed on request."
+      - number: "05"
+        title: "Priority handling"
+        description: "On time-sensitive leads."
+
+human_team:
+  heading: "What the Human Team Does — and Doesn't"
+  body:
+    - "The back-office team handles judgment calls, outbound calls, and follow-through — the parts of the job a purely automated tool can't do. They don't do market research or strategy work. On Standard, they act when Jane decides it's needed; on Executive, you can direct them yourself."
+
+enterprise:
+  heading: "Enterprise"
+  body: "Running a sales team, not just yourself? Team-based plans with manager review are available."
+  cta:
+    label: "Talk to Us"
+    url: "/get-started/"
