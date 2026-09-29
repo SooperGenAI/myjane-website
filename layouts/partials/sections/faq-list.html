@@ -1,8 +1,8 @@
 <section class="mx-auto max-w-3xl px-6 py-section-y">
   <h1 class="h-display text-4xl">{{ .heading }}</h1>
-  <dl class="mt-10 divide-y divide-navy-700/10">
+  <dl class="mt-10 space-y-4">
     {{ range .items }}
-      <div class="py-6">
+      <div class="rounded-2xl p-6 transition-colors hover:bg-teal-500/10">
         <dt class="font-display text-lg font-semibold text-navy-700">{{ .question }}</dt>
         <dd class="mt-2 text-navy-700/70">{{ .answer }}</dd>
       </div>
