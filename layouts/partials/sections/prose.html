@@ -8,7 +8,7 @@
         <div class="{{ if $dark }}md:order-2{{ end }}">
           <h2 class="h-display text-3xl {{ $headingColor }}">{{ .heading }}</h2>
           {{ range .body }}
-            <p class="mt-4 {{ $bodyColor }}">{{ . }}</p>
+            <p class="mt-4 {{ $bodyColor }}">{{ . | safeHTML }}</p>
           {{ end }}
         </div>
         {{ partial "illustration.html" (dict "file" .illustration.file "alt" .illustration.alt "class" (printf "mx-auto w-full max-w-md %s" (cond $dark "md:order-1" ""))) }}
@@ -17,7 +17,7 @@
       <div class="mx-auto max-w-3xl">
         <h2 class="h-display text-3xl {{ $headingColor }}">{{ .heading }}</h2>
         {{ range .body }}
-          <p class="mt-4 {{ $bodyColor }}">{{ . }}</p>
+          <p class="mt-4 {{ $bodyColor }}">{{ . | safeHTML }}</p>
         {{ end }}
       </div>
     {{ end }}

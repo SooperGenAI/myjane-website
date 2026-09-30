@@ -53,7 +53,7 @@ why_not_ai:
   heading: "Why It's Not Just AI"
   body:
     - "AI can handle the volume — replying quickly, following up, keeping track of conversations, and making sure nothing gets forgotten. But sometimes a situation moves only when a real person gets involved: reconnecting with a customer who's going cold, chasing an elusive lead, resolving a sensitive issue, or calming down a disgruntled customer."
-    - "That's why Jane combines AI with a dedicated human team. Jane handles the routine work automatically, and her team steps in when a human touch can make the difference. They can make the call, have the difficult conversation, or keep pursuing something that needs persistence. You see everything they do in one running activity feed."
+    - "That's why Jane combines AI with a <strong>dedicated human team</strong>. Jane handles the routine work automatically, and her team steps in when a human touch can make the difference. They can make the call, have the difficult conversation, or keep pursuing something that needs persistence. You see everything they do in one running activity feed."
   illustration:
     file: "why-not-ai-team-collaboration.svg"
     alt: "Illustration of a human and an AI assistant working together at a shared desk"
