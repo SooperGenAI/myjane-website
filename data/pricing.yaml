@@ -5,7 +5,7 @@ intro:
 plans:
   - name: "Standard"
     price: "$99/mo"
-    price_annual: "($1,000/yr)"
+    price_annual: "($999/yr)"
     description: "The default plan for most small teams and independent practices."
     cta:
       label: "Get Started"
@@ -28,7 +28,7 @@ plans:
         description: "See exactly what the team did."
   - name: "Executive"
     price: "$499/mo"
-    price_annual: "($5,000/yr)"
+    price_annual: "($4,999/yr)"
     description: "For owners who want to actively direct the back-office team."
     cta:
       label: "Get Started"
