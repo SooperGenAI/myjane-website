@@ -4,8 +4,8 @@ intro:
 
 plans:
   - name: "Standard"
-    price: "$149/mo"
-    price_annual: "($1,499/yr)"
+    price: "$99/mo"
+    price_annual: "($999/yr)"
     description: "The default plan for most small teams and independent practices."
     cta:
       label: "Get Started"
