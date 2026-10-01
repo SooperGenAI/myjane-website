@@ -1,6 +1,6 @@
 heading: "FAQ"
 items:
-  - question: "Does Jane see all my email?"
+  - question: "Does Jane see all my emails?"
     answer:
       - "Jane has access to your mailbox so she can understand what's happening with your customers and business. But she doesn't treat your entire inbox as her workspace."
       - "Jane is designed to identify and process emails relevant to the work you've entrusted to her — such as sales leads, customer conversations, enquiries, quotes, follow-ups, appointments, and other customer-related business activity. Emails that are unrelated to those activities, such as personal correspondence or other private business matters, are not processed into Jane's working context."
