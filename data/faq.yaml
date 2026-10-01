@@ -1,26 +1,44 @@
 heading: "FAQ"
 items:
   - question: "Does Jane see all my email?"
-    answer: "Yes — once you connect your mailbox, Jane has full visibility into it, not just what's CC'd to her. She syncs every few hours, so there's normally a short lag rather than instant, live access."
+    answer:
+      - "Jane has access to your mailbox so she can understand what's happening with your customers and business. But she doesn't treat your entire inbox as her workspace."
+      - "Jane is designed to identify and process emails relevant to the work you've entrusted to her — such as sales leads, customer conversations, enquiries, quotes, follow-ups, appointments, and other customer-related business activity. Emails that are unrelated to those activities, such as personal correspondence or other private business matters, are not processed into Jane's working context."
+  - question: "Does Jane's human team have access to my email?"
+    answer:
+      - "No. Jane's human team does not have access to your mailbox and cannot browse through your emails."
+      - "When Jane needs a human to step in — for example, to call a customer or follow up on a difficult lead — Jane creates a specific task and provides the team with the minimum relevant context needed to complete it. This might include the customer's contact information, the relevant conversation, the reason for the task and any relevant commitments."
+      - "They don't get your inbox."
   - question: "Will replies sound robotic?"
-    answer: "No — Jane matches your business's tone, and you can review and adjust how she writes."
+    answer:
+      - "No — Jane matches your business's tone, and you can review and adjust how she writes."
   - question: "Who's on the back-office team?"
-    answer: "A trained team working as an extension of your business under MyJane's supervision — this is what makes a real human team affordable at this price."
+    answer:
+      - "A trained team working as an extension of your business under MyJane's supervision — this is what makes a real human team affordable at this price."
   - question: "What if Jane gets something wrong?"
-    answer: "Correct her in plain chat, and on Executive you can redirect the team in real time. Every action is logged in the activity feed."
+    answer:
+      - "Correct her in plain chat, and on Executive you can redirect the team in real time. Every action is logged in the activity feed."
   - question: "Can I cancel anytime?"
-    answer: "Yes — monthly plans cancel anytime."
+    answer:
+      - "Yes — monthly plans cancel anytime."
   - question: "What happens to my data if I leave?"
-    answer: "It's yours. We provide an export on request."
+    answer:
+      - "It's yours. We provide an export on request."
   - question: "Does it work with my CRM or existing tools?"
-    answer: "Jane works via email and chat first, alongside whatever you already use. Direct integrations are expanding — ask us about your setup."
+    answer:
+      - "Jane works via email and chat first, alongside whatever you already use. Direct integrations are expanding — ask us about your setup."
   - question: "Is there a limit on leads or customers?"
-    answer: "No. Active contacts are unlimited on every plan."
+    answer:
+      - "No. Active contacts are unlimited on every plan."
   - question: "How long does it take to get started?"
-    answer: "Connect your mailbox and you're good to go in a few minutes."
+    answer:
+      - "Connect your mailbox and you're good to go in a few minutes."
   - question: "Who can see my conversations?"
-    answer: "Only you and the trained team supporting your account — nothing is shared outside MyJane, and access is limited to what's needed to do the work."
+    answer:
+      - "Only you and the trained team supporting your account — nothing is shared outside MyJane, and access is limited to what's needed to do the work."
   - question: "What's the difference between plans?"
-    answer: "Standard gives you Jane's automated handling and CRM. Executive adds direct interaction with the back-office team."
+    answer:
+      - "Standard gives you Jane's automated handling and CRM. Executive adds direct interaction with the back-office team."
   - question: "Is there a free trial?"
-    answer: "Yes — one month, free."
+    answer:
+      - "Yes — one month, free."

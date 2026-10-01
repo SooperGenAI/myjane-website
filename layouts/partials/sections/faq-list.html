@@ -4,7 +4,9 @@
     {{ range .items }}
       <div class="rounded-2xl p-6 transition-colors hover:bg-teal-500/10">
         <dt class="font-display text-lg font-semibold text-navy-700">{{ .question }}</dt>
-        <dd class="mt-2 text-navy-700/70">{{ .answer }}</dd>
+        {{ range .answer }}
+          <dd class="mt-2 text-navy-700/70">{{ . }}</dd>
+        {{ end }}
       </div>
     {{ end }}
   </dl>
